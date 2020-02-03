@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PariwisataBerita1Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="800.0" prefWidth="1600.0">
+         <children>
+            <Text layoutX="49.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sinergi Humas Perhotelan, Media Massa, dan Pelaku Pariwisata dalam Memajukan Pariwisata Yogyakarta" wrappingWidth="725.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 02 juli 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="51.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Himpunan Humas Hotel Yogyakarta (H3Y) mengadakan kegiatan gathering bersama rekan media dengan tajuk “Syawalan’nipun H3Y Kaliyan Para Kanca Media”, Jumat 28 Juni 2019 lalu di Sasanti Resto &amp; Gallery.Gathering yang sejalan dengan syawalan ini berlangsung meriah dan hangat, mempertemukan insan hubungan masyarakat/PR (Humas/Public Relation) dengan insan media massa baik cetak, elektronik, maupun media sosial.“Kekompakan yang terjalin antara H3Y, media massa dan pemangku pariwisata lain sudah seyogyanya menjadi nafas utama dalam aktivasi Yogyakarta sebagai destinasi yang mumpuni,” ujar Khairul Anwar selaku Chairman H3Y 2018-2020 saat acara berlangsung (28/6)." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menurutnya, dalam era kolaborasi dan pergerakan digital, H3Y akan terus merangkul semua pihak agar berharmoni secara progresif secara konsisten. Ia bersyukur dan berterima kasih kepada seluruh pihak atas perkembangan H3Y yang sudah memasuki tahun ketiganya.Dalam acara ini dilaksanakan juga pengenalan kembali masing-masing korporat yang tergabung dalan H3Y. Selain itu mempertemukan pihak korporat dengan rekan media agar sinergi pariwisata dapat berjalan dengan mulus.Sasanti Resto &amp; Gallery yang terletak di Jalan Palagan no. 52 A Panggung Sari ini adalah restoran yang sudah tidak asing lagi bagi masyarakat Jogja." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="631.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resto favorit Presiden Jokowi di Jogja ini juga sempat menjadi ‘wajah’ Indonesia saat menjamu mantan presiden Amerika Serikat, Barrack Obama saat ia berlibur dengan keluarganya.Acara yang diikuti kurang lebih 60 orang ini diakhiri dengan halalbihalal antara komunitas guyub dan pengundian doorprize. H3y sendiri adalah organisasi profesi khusus para PR di industri perhotelan Yogyakarta." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="button121" layoutX="1486.0" layoutY="775.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="321.0" fitWidth="547.0" layoutX="49.0" layoutY="299.0">
+               <image>
+                  <Image url="@../Images/Sinergi%20pariwisata.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="4.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="920.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="25.0" layoutY="3.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

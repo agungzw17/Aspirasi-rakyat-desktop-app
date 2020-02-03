@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KpkBerita4Controller">
+    <children>
+      <Pane prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <Text layoutX="762.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Komisi Pemberatasan Korupsi (KPK) menerima kedatangan delegasi Inspektorat Kota Ho Chi Minh, Vietnam, di Gedung Pusat Edukasi Antikorupsi KPK, Jakarta pada Kamis (20/06).Kedatangan 12 orang anggota delegasi itu guna mempelajari strategi pencegahan korupsi KPK, khususnya terkait strategi nasional pemberantasan korupsi, koordinasi dan supervisi pencegahan korupsi dan gerakan Saya Perempuan Antikorupsi (SPAK).Dalam kesempatan itu, hadir sebagai narasumber diskusi antara lain Koordinator Sekretariat Bersama Stranas PK Herda Helmijaya, Spesialis Kordinasi dan Supervisi Pencegahan (Korsupgah) KPK Mohammad Jhanattan, dan Syafril Sangaji dari tim Strategi Nasional Pencegahan Korupsi (Stranas-PK) dan perwakilan agen Saya Perempuan Antikorupsi (SPAK).Herda Helmijaya selaku Koordinator Sekretariat Bersama Stranas PK menjelaskan mengenai ruang lingkup kegiatan dan pendekatan yang dilakukan oleh Stranas PK dalam melancarkan upaya perbaikan sistem dan pencegahan korupsi dengan cepat.Syafril Sangaji menambahkan,  Stranas KPK yang dibentuk pemerintah sebagai langkah percepatan pemberantasan korupsi di Indonesia. Stranas PK dijalankan oleh lima lembaga, yakni KPK, Kementerian PPN/Bappenas, Kementerian Dalam Negeri, Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi, serta Kantor Staf Presiden.“Kolaborasi lima lembaga ini dapat melancarkan upaya perbaikan sistem dan pencegahan korupsi dengan cepat dan terintegrasi.&quot;Selain kolaborasi dengan lembaga lain, KPK juga berkolaborasi dengan masyarakat. Salah satu contohnya adalah gerakan SPAK yang diinisiasi KPK sejak 2014.Agen SPAK Maria Kresentia menyampaikan bahwa perempuan dapat menjadi agen perubahan yang tepat untuk membawa nilai-nilai kebaikan dalam keluarga.“Karena perempuan, terutama ibu, merupakan pendidik utama dalam keluarga. Peran ibu dalam keluarga sangat kuat dan dapat mempengaruhi budaya dalam keluarga,” ujar Maria.Hingga kini, KPK telah memiliki 2.080 agen SPAK yang tersebar di seluruh Indonesia. Agen-agen ini, menurut Maria berasal dari latar belakang yang beragam, dari mahasiswa, guru, dosen, dokter hingga aparat penegak hukum.Pencegahan korupsi yang dilakukan oleh Agen SPAK melalui pendekatan dengan cara halus, yaitu merubah mental dan menumbuhkan budaya kejujuran. Dimulai dari dalam keluarga, merupakan investasi jangka panjang yang penting bagi bangsa.“Sepuluh atau dua puluh tahun yang akan datang, kita akan memiliki anak-anak yang berintegritas,” ujar Maria.Dalam diskusi, pihak Inspektorat Kota Ho Chi Minh menaruh perhatian khusus terkait bagaimana metode yang digunakan oleh Korsupgah yang berlokasi di Jakarta dan luasnya cakupan wilayah kerja se-Indonesia. Selain itu, fungsi Monitoring and Control for Prevention (MCP) yang berbasis website bisa menjadi alat pemantau progres rencana aksi di tiap daerah dan dapat juga digunakan oleh masyarakat dalam memantau perkembangan daerahnya masing-masing.Mereka juga tertarik pada Gerakan SPAK, bagaimana kaum hawa dapat memainkan peran penting dalam hal pencegahan korupsi. Hal ini sangat dipengaruhi oleh budaya dan Vietnam sangat memungkinkan untuk mengimplementasikan gerakan ini.(Humas)" textAlignment="JUSTIFY" wrappingWidth="822.7890014648438" />
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="51.0" layoutY="237.0">
+               <image>
+                  <Image url="@../Images/mthumb%20(2).jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KPK Berbagi Pengalaman dengan Inspektorat Kota Ho Chi Minh" wrappingWidth="688.3685302734375">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 25 Juni 2019" wrappingWidth="174.45567572116852" />
+            <Button layoutX="1509.0" layoutY="751.0" mnemonicParsing="false" onAction="#kembali" styleClass="buttonmerah" text="Kembali" textFill="WHITE" />
+         </children>
+      </Pane>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Line endX="326.1666564941406" endY="-10.0" layoutX="-37.0" layoutY="10.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="5.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="30.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

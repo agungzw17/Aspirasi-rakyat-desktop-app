@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PariwisataBerita2Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <Text layoutX="49.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tradisi Pergantian Prajurit Puro Pakualaman Mengundang Daya Tarik Wisatawan" wrappingWidth="725.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senin, 01 Juli 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="51.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puro Pakualaman kembali menggelar “Atraksi Wisata Budaya dan Pergantian Prajurit Puro Pakualaman.” Acara ini rutin dilaksanakan setiap 35 hari (menurut kalender Jawa) sekali, yaitu setiap Sabtu Kliwon. Puro Pakualaman memang masih menjaga tradisi upacara pergantian prajurit mereka.Di Puro Pakualaman sendiri ada dua prajurit yang berjaga yakni Prajurit Bregada Lombok Abang dan Prajurit Plangkir yang berganti jaga setiap 35 hari sekali. Prosesi upacara ini ditandai dengan bersiapnya kedua regu prajurit di halaman Puro Pakualaman yang nantinya mengganti Dwaja (bendera kesatuan) dari prajurit jaga sebelumnya. Sesuai dengan namanya, Dwaja dan seragam Prajurit Bregada Lombok Abang berwarna merah, sedangkan Prajurit Plangkir berseragam hitam dengan Dwaja berwarna hitam pula." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hari ini Sabtu (29/06/19) merupakan pergantian dari Prajurit Plangkir ke prajurit Lombok Abang. Prosesi diawali oleh pengiring barisan menjemput 2 pleton yakni Prajurit Lombok Abang dan Prajurit Plangkir. Ketiga barisan itu berjalan beriringan memasuki lapangan Puro Pakualaman, kemudian di Swandanan itu diadakan prosesi upacara serah terima.Selain untuk melaksanakan tradisi yang sudah rutin dilaksanakan oleh Puro Pakualaman, acara ini juga bertujuan untuk lebih mendekatkan Puro Pakualaman dengan masyarakat karena pada awalnya jumlah kunjungan ke Puro Pakualaman tidak seramai sekarang, dan upacara seperti ini dulunya hanya dilakukan di kalangan intern pakulaman yaitu dengan mengganti Dwaja dan melakukan sarahsehan diantara abdi dalem Pakualaman." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="762.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acara ini juga dimeriahkan dengan berbagai pertunjukan seni tradisi diantaranya jathilan, tari Nawung Sekar, Tari Mojang di Alun-alun Sewandanan yang terletak di depan Puro Pakualaman sehingga lebih memberdayakan berbagai macam kesenian tradisional yang ada di DIY sebagai aset budaya yang harus dipertahankan. Tentu saja ini merupakan salah satu upaya dalam melestarikan, mengembangkan dan memanfaatkan kesenian tradisional serta budaya agar tidak tenggelam di era milenial seperti sekarang ini. Diharapkan pula dengan diselenggarakannya acara ini mampu meningkatkan jumlah kunjungan wisatawan." textAlignment="JUSTIFY" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="button121" layoutX="1486.0" layoutY="775.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="354.0" fitWidth="529.0" layoutX="53.0" layoutY="286.0">
+               <image>
+                  <Image url="@../Images/penggantian.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="920.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KpkBerita2Controller">
+    <children>
+      <Pane prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <Text layoutX="762.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagi Komisi Pemberantasan Korupsi (KPK), peran whistleblower atau pengungkap dugaan tindak pidana korupsi, sangat penting. Demikian disampaikan Juru Bicara KPK Febri Diansyah Senin (24/6) dalam memperingati World Whistleblowing Day yang jatuh setiap 23 Juni.Dari pengungkapan whistleblower itu, kata Febri, KPK menindaklanjuti laporan yang masuk untuk kemudian diselidiki.  Bisa dikatakan, peran para pengungkap kasus ini, sangat besar bagi tugas KPK.“Dari 6.468 laporan yang diterima KPK di tahun 2018, sebanyak 2.272 laporan menjadi petunjuk awal yang digunakan KPK untuk mengungkap kasus korupsi,” katanya.Hal ini menegaskan bahwa laporan masyarakat menjadi salah satu kunci utama keberhasilan pemberantasan korupsi. Sebab, KPK tidak bisa bekerja sendiri dan membutuhkan dukungan masyarakat untuk mengawasi dan mengungkap berbagai kasus korupsi yang terjadi.“Peran pengungkap sangat penting. Identitas pun akan dijamin kerahasiaan dan keamanannya. Karena itu, jangan takut mengungkap kasus korupsi,” kata Febri.Bagi kelompok pegiat antikorupsi seperti Transparency International (TI), peringatan World Whistleblowing Day, justru dimanfaatkan untuk mengkampanyekan dukungan masyarakat bagi para pelapor kasus korupsi. Pesan utamaya sangat kuat, bahwa masyarakat yang menjadi bagian dari pengungkap kasus korupsi, tak boleh surut nyali.TI menciptakan gambar bergerak (GIF) dan stiker yang bisa digunakan melalui aplikasi perpesanan pada smartphone. Dengan menggunanakannya, masyarakat menunjukkan dukungannya kepada para pelapor kasus korupsi di dunia.Stiker-stiker itu bertuliskan aneka bentuk dukungan, seperti I Support Whsitle Blower, Protect Whistle Blower, Speak Up dan lainnya, dengan berbagai aneka warna.Seperti yang dikutip dari situs voices.transparency.org, masyarakat dapat memasukan kata kunci Transparancy International dalam kolom pencarian GIF di Twitter, atau dengan memasukan kata kunci lainnya seperti “Whistleblower” dan “WWBD2019”. Selain di Twitter, stiker tersebut juga tersedia di Instagram dan Facebook Stories. Cara menggunakannya pun sangat mudah, tinggal memasukan kata kunci “whistleblower” atau “WWBD2019” dalam kolom pencarian GIF&quot;(Humas)" textAlignment="JUSTIFY" wrappingWidth="822.7890014648438">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="51.0" layoutY="237.0">
+               <image>
+                  <Image url="@../Images/mthumb.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jangan takut mengungkap korupsi" wrappingWidth="749.3685302734375">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 25 Juni 2019" wrappingWidth="174.45567572116852" />
+            <Button layoutX="1509.0" layoutY="751.0" mnemonicParsing="false" onAction="#kembali" styleClass="buttonmerah" text="Kembali" textFill="WHITE" />
+         </children>
+      </Pane>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Line endX="326.1666564941406" endY="-10.0" layoutX="-37.0" layoutY="10.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="5.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="30.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

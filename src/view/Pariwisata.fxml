@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PariwisataController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="3.0" prefHeight="800.0" prefWidth="1600.0">
+         <children>
+            <ImageView fitHeight="207.0" fitWidth="285.0" layoutX="24.0" layoutY="94.0">
+               <image>
+                  <Image url="@../Images/Pariwisata1.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="309.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="         Berdasarkan Peraturan Daerah Istimewa Daerah Istimewa Yogyakarta Nomor 3 Tahun 2015 Tentang Kelembagaan Pemerintah Daerah Daerah Istimewa Yogyakarta, Dinas Pariwisata memiliki tugas untuk melaksanakan urusan bidang pariwisata, kewenangan dekonsentrasi serta tugas pembantuan yang diberikan oleh pemerintah." textAlignment="JUSTIFY" wrappingWidth="1135.7890014648438">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="309.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dinas Pariwisata Daerah Istimewa Yogyakarta" wrappingWidth="749.3685302734375">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Line endX="270.66668701171875" endY="3.0517578125E-5" layoutX="1265.0" layoutY="388.0" startX="-358.6666564941406" startY="3.0517578125E-5" />
+            <Text layoutX="715.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berita Terbaru">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Text>
+            <TextField layoutX="340.0" layoutY="447.0" prefHeight="334.0" prefWidth="290.0" style="-fx-border-color: #000000; -fx-border-width: 5px;" />
+            <Text layoutX="370.0" layoutY="656.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tradisi Pergantian Prajurit Puro Pakualaman Mengundang Daya Tarik Wisatawan" wrappingWidth="255.58334203343838">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="370.0" layoutY="720.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puro Pakualaman kembali menggelar “Atraksi Wisata Budaya dan Pergantian Prajurit Puro Pakualaman.” Acara ini rutin ...." wrappingWidth="255.68847732245922">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="169.0" fitWidth="280.0" layoutX="345.0" layoutY="452.0">
+               <image>
+                  <Image url="@../Images/penggantian.jpeg" />
+               </image>
+            </ImageView>
+            <TextField layoutX="654.0" layoutY="448.0" prefHeight="334.0" prefWidth="290.0" style="-fx-border-color: #000000; -fx-border-width: 5px;" />
+            <Button layoutX="342.0" layoutY="441.0" mnemonicParsing="false" onAction="#beritaDua" prefHeight="338.0" prefWidth="286.0" style="-fx-background-color: 0;" />
+            <Text layoutX="675.0" layoutY="651.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Promosi dan Pemasaran Pariwisata Kota Yogyakarta di Kota Palangkaraya" wrappingWidth="255.58334203343838">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <TextField layoutX="22.0" layoutY="447.0" prefHeight="334.0" prefWidth="290.0" style="-fx-border-color: #000000; -fx-border-width: 5px;" />
+            <Text layoutX="45.0" layoutY="656.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sinergi Humas Perhotelan, Media Massa, dan Pelaku Pariwisata dalam Memajukan Pariwisata Yogyakarta" wrappingWidth="255.58334203343838">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="171.0" fitWidth="280.0" layoutX="659.0" layoutY="453.0">
+               <image>
+                  <Image url="@../Images/palangkaraya%20diy.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="674.0" layoutY="720.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dinas Pariwisata Kota Yogyakarta melalui kegiatan Promosi dan Pemasaran Pariwisata baru saja mengunjungi...." wrappingWidth="255.68847732245922">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <TextField layoutX="970.0" layoutY="449.0" prefHeight="334.0" prefWidth="290.0" style="-fx-border-color: #000000; -fx-border-width: 5px;" />
+            <TextField layoutX="1286.0" layoutY="449.0" prefHeight="334.0" prefWidth="290.0" style="-fx-border-color: #000000; -fx-border-width: 5px;" />
+            <Button layoutX="657.0" layoutY="444.0" mnemonicParsing="false" onAction="#beritaTiga" prefHeight="333.0" prefWidth="285.0" style="-fx-background-color: 0;" />
+            <Text layoutX="993.0" layoutY="697.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sukses melaksanakan pre-event-nya yang pertama, Mulanira Malyabhara pada 1 Juni lalu, FKY menggelar...." wrappingWidth="255.68847732245922">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="1312.0" layoutY="711.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anugerah Pesona Indonesia (API) kembali digelar tahun 2019 ini dan merupakan tahun keempat diselenggarakan. Kegiatan......." wrappingWidth="255.68847732245922">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="988.0" layoutY="675.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menuju FKY 2019" wrappingWidth="255.58334203343838">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="1310.0" layoutY="662.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ayo VOTE Wisata DIY di Anugerah Pesona Indonesia 2019" wrappingWidth="255.58334203343838">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="171.0" fitWidth="281.0" layoutX="975.0" layoutY="454.0">
+               <image>
+                  <Image url="@../Images/Fky.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="977.0" layoutY="456.0" mnemonicParsing="false" onAction="#beritaEmpat" prefHeight="330.0" prefWidth="287.0" style="-fx-background-color: 0;" />
+            <ImageView fitHeight="162.0" fitWidth="280.0" layoutX="1291.0" layoutY="454.0">
+               <image>
+                  <Image url="@../Images/vote.jpeg" />
+               </image>
+            </ImageView>
+            <Button layoutX="1286.0" layoutY="449.0" mnemonicParsing="false" onAction="#beritaLima" prefHeight="330.0" prefWidth="283.0" style="-fx-background-color: 0;" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="169.0" fitWidth="280.0" layoutX="30.0" layoutY="452.0">
+         <image>
+            <Image url="@../Images/Sinergi%20pariwisata.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="270.66668701171875" endY="3.0517578125E-5" layoutX="415.0" layoutY="388.0" startX="-358.6666564941406" startY="3.0517578125E-5" />
+      <Text layoutX="52.0" layoutY="722.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Himpunan Humas Hotel Yogyakarta (H3Y) mengadakan kegiatan gathering bersama rekan media dengan...." wrappingWidth="255.68847732245922">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="63.0" layoutY="426.0" mnemonicParsing="false" onAction="#beritaSatu" prefHeight="328.0" prefWidth="283.0" style="-fx-background-color: 0;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-36.0" startX="326.1666259765625" startY="55.999996185302734" stroke="WHITE" />
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="96.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" onAction="#insatansiPemerintahanSejarahPengaduan" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="920.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

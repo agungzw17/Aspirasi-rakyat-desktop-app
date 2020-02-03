@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PolisiBerita2Controller">
+   <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Polda DIY Siapkan Satgas Pangan Tindak Mafia Ayam Bila Memainkan Harga" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rabu, 26 juni 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kapolda DIY, Irjen Pol Ahmad Dofiri, Rabu (26/06/2019)." wrappingWidth="491.4700622558594" />
+            <Text layoutX="760.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anjloknya harga ayam di tingkat peternak membuat Kepolisian Daerah Istimewa Yogyakarta (DIY) akan mengoptimalkan Satgas Pangan untuk menindak tegas mafia ayam bila terbukti melakukan permainan harga ayam di tingkat peternakan dan pakan ayam&quot;Apalagi, kalau ada mafia, tinggal menindak saja. Akan tetapi, mudah-mudahan tidak permainan harga. Kami berharap penurunan harga ini sifatnya temporer dalam waktu-waktu tertentu,&quot; kata Kapolda DIY Irjen Pol Ahmad Dofiri seperti dilansir Antara di Kulon Progo, Rabu (26/6/2019).Selain itu, pihaknya akan berkoordinasi dengan pihak-pihak terkait karena persoalan pangan tidak hanya menjadi tugas polisi saja, melainkan bidang-bidang dan instansi lain, seperti dinas pertanian, dinas peternakan, dan dinas perdagangan." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sementara itu, Kepala Bidang Peternakan Dinas Pertanian dan Pangan Kulon Progo Nur Syamsu Hidayat mengatakan peternakan ayam mandiri dan peternakan ayam inti di Kulon Progo sampai saat ini tidak ada persoalan.Meski begitu, Nur Syamsu mengatakan peternak ayam mandiri terancam gulung tikar dalam satu hingga dua bulan ke depan. Peternak ayam mandiri tersebut, dikatakannya benar-benar mandiri dan tidak bermitra dengan inti.Inti sendiri dibagi dalam dua katergori, yakni inti mandiri dan inti pabrik." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selanjutnya, peternak ayam yang bermitra dengan inti pabrik, tetap akan akan bertahan. Inti pabrik dan Day Old Chicken (DOC) itu merupakan pengusaha besar. Perusahaan pakan langsung ke peternak, ini yang kuat.Nur Syamsu mengakui kesulitan melakukan pemantuan peternakan ayam plasma dan peternakan mandari. Sejauh ini, mereka enggan mengurus izin atau mendaftarkan diri.Ia menegaskan bahwa peternak ayam potong sudah masuk kategori pengusaha, tidak sebagai kelompok, sehingga bukan sebagai kelompok yang dibimbing dinas. Dinas hanya melakukan pendampingan dalam hal perizinan." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="264.0" fitWidth="537.0" layoutX="52.0" layoutY="291.0">
+               <image>
+                  <Image url="@../Images/98586-kapolda-diy-irjen-pol-ahmad-dofiri.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="650.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button121" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

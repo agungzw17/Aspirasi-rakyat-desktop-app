@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KpkBerita3Controller">
+    <children>
+      <Pane prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <Text layoutX="748.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setelah pelepasan seremonial yang digelar pada Jumat (21/6) di halaman Gedung Merah Putih KPK, Selasa (25/6) Bus KPK Jelajah Negeri, Bangun Antikorupsi mulai menyapa warga Ngawi dan sekitarnya.Dalam sambutan pada pembukaan kegiatan Roadshow Bus KPK yang bertempat di Pendopo Wedya Graha Kabupaten Ngawi, Ketua KPK Agus Rahardjo mengingatkan kepada 300 peserta yang merupakan pejabat dan aparatur pemerintahan mulai dari Bupati, Camat hingga Kepala Desa agar terus melakukan perbaikan dan berbenah diri dalam memberikan pelayanan kepada masyarakat.“Kalau kita lihat tahun 2018, skor IPK kita di angka 38. Ini merupakan paling rendah di ASEAN. Oleh karena itu saya selalu mengingatkan, mari kita perbaiki, sistemnya sama-sama kita perbaiki. Supaya nanti rakyat bisa melihat apa yang dilakukan pemerintah untuk rakyatnya,” ujarnya.Agus juga menyampaikan bahwa tugas KPK sangat banyak dan tidak hanya penindakan. Tetapi, KPK juga memiliki kewenangan pencegahan. Salah satunya dilakukan dengan menyelenggarakan sosialisasi dan pendidikan antikorupsi. Dengan menggunakan bus sebagai media kampanye, KPK ingin terus menambah “penumpang” antikorupsinya.Bupati Ngawi Budi Sulistyanto menyampaikan pesan dan harapan kepada para jajarannya agar mengambil manfaat dari program bus KPK ini.  “Yang hadir hari ini dari berbagai perangkat desa agar memviralkan. Bisa ngomongi kancane, untuk antikorupsi. Sehingga kita bisa sama-sama bersih. Program bus KPK ini ngajarin antikorupsi sejak dini mulai dari anak anak, supaya tidak nyontek. Semoga apa yang kita sajikan bisa memberikan manfaat yang luar biasa,” katanya.Serangkaian acara kembali digelar pada hari kedua, 26 Juni 2019. Beberapa kegiatan berlangsung paralel di tempat yang berbeda. Kali ini sosialisasi dilakukan untuk para Guru PPKN se-kabupaten Ngawi, bertempat di Gedung Kesenian Pemerintah Kabupaten Ngawi. Sebagai narasumber Fungsional Dikyanmas Ramah Handoko yang akrab dipanggil Kokow mengingatkan kepada peserta pentingnya guru untuk memiliki sensitifitas dan menggunakan rasa kemanusiaannya.“Kalau ada murid terlambat ujian PKN dan harus remedial, kemudian muridnya cerita kalau di perjalanan ke sekolah ia membantu orang kecelakaan sehingga terlambat ke sekolah. Lebih penting mana membantu orang atau ujian PKN? Di sinilah fungsi kemanusiaan guru benar-benar digunakan,” ujarnya.Kegiatan Roadshow Bus KPK di Ngawi sangat interaktif, semuanya berlangsung dari dalam bus. Di mulai dari edukasi antikorupsi untuk pelajar TK dengan total peserta sebanyak 250 orang anak. Menggunakan medium film dan boardgames, anak-anak usia dini tersebut diperkenalkan dengan nilai-nilai antikorupsi seperti kejujuran, peduli, mandiri, disiplin, tanggung jawab, kerja keras, sederhana, berani, dan keadilan.Kegiatan kemudian dilanjutkan untuk pelajar SMP. Masih bermuatan pendidikan antikorupsi dan menggunakan konsep play day, peserta diajak melakukan senam sahabat pemberani selain bermain boardgames dan menonton film antikorupsi.Sedangkan, untuk pelajar SMA disuguhkan film-film antikorupsi hasil produksi KPK melalui program Anti-Corruption Film Festival (ACFFest) yang diputar dengan alat multimedia serta perangkat komputer yang tersedia di dalam bus.Esok, bus Jelajah Negeri, Bangun Antikorupsi akan melanjutkan rutenya ke Kota Madiun. Kawan Aksi Madiun, Segera Bersiap!(Humas)" textAlignment="JUSTIFY" wrappingWidth="822.7890014648438" />
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="51.0" layoutY="237.0">
+               <image>
+                  <Image url="@../Images/mthumb%20(1).jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Awali di Ngawi, Bus KPK Perbanyak “Penumpang” Antikorupsi" wrappingWidth="749.3685302734375">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 25 Juni 2019" wrappingWidth="174.45567572116852" />
+            <Button layoutX="1509.0" layoutY="751.0" mnemonicParsing="false" onAction="#kembali" styleClass="buttonmerah" text="Kembali" textFill="WHITE" />
+         </children>
+      </Pane>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Line endX="326.1666564941406" endY="-10.0" layoutX="-37.0" layoutY="10.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="5.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="30.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

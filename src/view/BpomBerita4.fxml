@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BpomBerita4Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="52.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/bpom-yk.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BPOM Yogyakarta Minta Masyarakat Waspadai Makanan Mengandung Obat Berbahaya." wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 23 April2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kota Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="631.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEMUAN BAHAN PANGAN BERBAHAYA. Kepala Balai Besar POM di Yogyakarta, Rustyawati menunjukkan sejumlah bahan pangan mengandung bahan berbahaya yang merupakan hasil temuan disejumlah pasar tradisional saat konferensi pers Ketersediaan dan Kesiapan bahan pangan pokok mencukupi kebutuhan Ramadan oleh Tim Pengendali Inflasi Daerah di Media Center Pemda DIY, Komplek Kepatihan, Kota Yogyakarta, Selasa (23/4/2019). Sebagian besar bahan pangan yang merupkan hasil laut tersbeut mengandung bahan pengawet formalin serta bahan pangan lain mengandung borak serta bahan pewarna rodamin. " wrappingWidth="625.4700622558594" />
+            <Text layoutX="762.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Badan Pengawas Obat-obatan dan Makanan (BPOM) DIY menemukan belasan temuan makanan yang mengandung bahan pengawet dan berbahaya dijual bebas di pasar DIY.Bahan makanan mengandung zat berbahaya dan berpengawet ini hingga kini masih mengintai kesehatan masyarakat karena berwarna menarik dan dijual dengan harga murah. " wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Masyarakat kami himbau untuk berhati-hati dengan bahan makanan tersebut.  Dari temuan kami pada 80 sampel yang kami curigai 17 persen diantaranya mengandung bahan berbahaya tersebut, &quot; ujar Kepala BPOM DIY,  Rustyawati dalam Jumpa Pers di Kepatihan,  Selasa (23/4/2019).Jumlah temuan tersebut menurutnya termasuk mengalami penurunan dibandingkan dengan tahun lalu yang mencapai sekitar 20 persen. Temuan ini merupakan hasil dari uji laboratorium di beberapa pasar di DIY, diantaranya pasar Argosari (Gunungkidul),  Prambanan (Sleman),  Wates (Kulonprogo), Niten (Bantul). " wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beberapa bahan yang berbahaya yang berhasil ditemukan diantaranya adalah ikan asin berformalin, teri nasi berformalin, makanan mengandung boraks, kerupuk dengan rhodamin atau pewarna tekstil.Sekilas bahan makanan ini terlihat tidak berbahaya,  bahkan efek jarak dekat tidak terasa.  &quot;Namun,  bahan makanan ini adalah pembunuh karena efek jangka panjang menyebabkan kanker dan penyakit dalam lainnya, &quot; urainya.  Adapun temuan bahan makanan yang mengandung zat berbahaya ini paling banyak berada di Pasar Prambanan. " wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button fx:id="button121" layoutX="1473.0" layoutY="754.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PolisiBerita3Controller">
+   <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Angka Kecelakaan Selama Libur Lebaran di Yogyakarta Naik 36 Persen" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kamis, 13 Juni 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kapolda DIY, Irjen Pol Ahmad Dofiri, Kamis (13/06/2019)." wrappingWidth="491.4700622558594" />
+            <Text layoutX="741.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Angka kecelakaan lalu lintas (lakalantas) selama Operasi Ketupat Progo tahun 2019 di wilayah Kepolisian Daerah Istimewa Yogyakarta (Polda DIY) naik 36 persen dibandingkan tahun sebelumnya.Dari data yang disampaikan, jumlah lakalantas selama Operasi Ketupat Progo Tahun 2019 sebanyak 76 kasus dengan 4 korban meninggal dunia dan 8 luka berat. Sedangkan pada tahun sebelumnya, tercatat 56 kasus lakalantas dengan korban 5 orang meninggal dunia dan 9 luka berat.&quot;Kemarin ada tambahan kurang lebih sembilan kasus dibanding tahun sebelumnya, yang meninggal sekitar 4 orang,&quot; kata Kapolda DIY Irjen Pol Ahmad Dofiri Kamis (13/6/2019)." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="741.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dofiri menambahkan salah satu pemicu naiknya angka lakalantas, karena peningkatan volume kendaraan pribadi yang masuk ke wilayah DIY.&quot;Ada beberapa catatan terkait dengan kecelakaan lalu lintas, karena tahun ini, ternyata karena kehadiran orang dengan kendaraan pribadi lebih banyak daripada tahun kemarin,&quot; kata Dofiri Lakalantas tersebut mayoritas terjadi di jalur utama pemudik dan jalur menuju tempat-tempat wisata. Salah satunya di Kabupaten Gunungkidul dengan kepadatan arus lalu lintas cukup tinggi.&quot;Kecelakaan kebanyakan terjadi di jalur-jalur wisata misalnya, Gunungkidul, dan dibeberapa jalur utama juga ada,&quot; imbuh Dofiri" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="741.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selain itu, Dofiri mengimbau masyarakat untuk berhati-hati mengingat kepadatan lalu lintas diprediksi akan terus terjadi sampai hari Minggu (16/6/2019) mendatang. Hal ini dipicu karena masa libur sekolah di Yogyakarta belum selesai.&quot;Sekarang di Yogyakarta ternyata masa libur anak-anak sekolah belum habis. Jadi paling tidak sampai dengan hari Minggu besok kepadatan lalu lintas masih akan terus terjadi,&quot; tutur Dofiri." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="318.0" fitWidth="530.0" layoutX="54.0" layoutY="288.0">
+               <image>
+                  <Image url="@../Images/39771-kapolda-diy-irjen-pol-ahmad-dofiri.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="650.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button121" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

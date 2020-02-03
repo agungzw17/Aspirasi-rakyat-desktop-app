@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="1028.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <ImageView fitHeight="578.0" fitWidth="1111.0" layoutX="-11.0">
+         <image>
+            <Image url="@/Images/background.jpg" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="89.0" layoutY="277.0" prefHeight="258.0" prefWidth="386.0" style="-fx-background-color: #0000; -fx-border-color: #fafafa;">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </BorderPane>
+      <TextField fx:id="nama" layoutX="162.0" layoutY="348.0" prefHeight="26.0" prefWidth="234.0" promptText="Nama" />
+      <Button fx:id="button1" layoutX="162.0" layoutY="484.0" onAction="#signUpButton" prefHeight="31.0" prefWidth="234.0" styleClass="buttonmerah" text="Daftar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="87.0" layoutY="67.0" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="55.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="149.0" text="Tempat rakyat Indonesia bebas berpendapat" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="827.0" layoutY="536.0" text="Created by BecomeDev 2019. " textFill="WHITE" />
+      <ImageView fitHeight="30.0" fitWidth="57.0" layoutX="1027.0" layoutY="530.0" preserveRatio="true">
+         <image>
+            <Image url="@/Images/become.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="88.0" layoutY="195.0" prefHeight="18.0" prefWidth="188.0" text="Daftar sekarang!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="uName" layoutX="765.0" layoutY="21.0" prefHeight="26.0" prefWidth="98.0" promptText="Username" />
+      <Button fx:id="button" layoutX="994.0" layoutY="21.0" onAction="#loginButton" prefHeight="26.0" prefWidth="65.0" styleClass="buttonmerah" stylesheets="@STheme.css" text="Masuk" textFill="WHITE" />
+      <AnchorPane layoutX="14.0" layoutY="14.0" />
+      <AnchorPane layoutX="20.0" layoutY="17.0" />
+      <AnchorPane layoutX="9.0" layoutY="14.0" />
+      <Label layoutX="222.0" layoutY="293.0" prefHeight="31.0" prefWidth="289.0" text="Pendaftaran" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="709.0" layoutY="197.0" prefHeight="46.0" prefWidth="353.0" text="Aplikasi pertama di Indonesia" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="757.0" layoutY="266.0" text="yang menyediakan fitur untuk masyarakat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="776.0" layoutY="313.0" text="dalam melakukan komunikasi langsung" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="711.0" layoutY="388.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="916.0" layoutY="361.0" text="dengan Pemerintah" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass" layoutX="874.0" layoutY="21.0" prefHeight="26.0" prefWidth="98.0" promptText="Password" />
+      <Label fx:id="text" layoutX="159.0" layoutY="539.0" prefHeight="22.0" prefWidth="234.0" stylesheets="@STheme.css" textFill="#fafafa">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pass1" layoutX="162.0" layoutY="432.0" prefHeight="26.0" prefWidth="234.0" promptText="Password" />
+      <TextField fx:id="uName1" layoutX="163.0" layoutY="390.0" prefHeight="26.0" prefWidth="234.0" promptText="Username" />
+   </children>
+</AnchorPane>

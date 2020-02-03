@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BpomBerita5Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="52.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/ilustrasi-kosmetik_20160521_093931.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50% Produk Kosmetik di DIY Tanpa Izin Edar" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 12 Maret 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kota Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Petugas BPOM DIY saat mendapati puluhan kosmetik yang tidak disertai dengan izin edar secara resmi, Selasa (12/03/2019)." wrappingWidth="608.4700622558594" />
+            <Text layoutX="762.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dari berbagai jenis kosmetik yang beredar di Daerah Istimewa Yogyakarta (DIY) masih ditemui berbagai jenis kosmetik yang mengandung bahan kimia berbahaya atau kosmetik yang belum memiliki izin edar.Rustyawati Kepala Badan Pengawas Obat dan Makanan (BPOM) DIY mengatakan selama 2018 sekitar 100-an produk diperiksa dan masih banyak ditemukan pruduk tanpa izin edar dan mengandung bahan kimia berbahaya.“Selama tahun 2018 ada sekitar seratusan produk yang diperiksa dan 50% ditemukan produk kosmetik berbahaya dan tanpa izin edar, produk-produk pemutih wajah banyak yang ditemukan tanpa izin edar dan mengandung zat kimia berbahaya biasanya produk import,” katanya kepada Starjogja.com, Senin (11/3/2019)." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banyaknya konsumen baik dari kalangan mahasiswa maupun masyarakat pendatang di wilayah  (DIY), menjadikan DIY pasar potensial bagi kosmetik.Bahan berbahaya yang terdapat pada kosmetik bisa berupa merkuri maupun hidrokinon, zat tersebut secaara kasat mata tidak akan bisa terlihat sehingga masyarakat harus teliti agar tidak terpengaruh zat kimia berbahaya yang terdapat pada kosmetik tersebut. Salah satu cara yang paling sederhana, Rusty menyarankan agar masyarakat memastikan kosmetik yang mereka pakai sudah mendapatkan izin dari BPOM.“Bahan berbahaya pada kosmetik diantaranya hidrokinon dan merkuri dan ini tidak kelihatan, sehingga cara mudah untuk mengetahuinya adalah biasanya kosmetik tersebut tanpa izin edar,” tambahnya." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Untuk mengetahui produk kosmetik tersebut sudah mendapatkan izin dari BPOM masyarakat dapat melihat lewat website BPOM, namum Rusty menyayangkan cara tersebut masih sering tidak dilakukan oleh konsumen.“Masyarakt bisa melihat pakah produk kosmetik sudah terdaftar atau belum dengan aplikasi lewat hp, ketik aja badan pom nanti akan mucul cek produk jika ada izin edar maka nanti akan muncul kodenya,” pungkas Rusty." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="button121" layoutX="1481.0" layoutY="773.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

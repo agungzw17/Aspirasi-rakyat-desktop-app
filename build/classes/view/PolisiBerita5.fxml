@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PolisiBerita5Controller">
+   <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spesial Hari Bhayangkara ke-73, Ribuan Peserta Gowes Sinergitas TNI-Polri Padati Stadion Maguwoharjo" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senin, 1 Juli 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gowes dalam rangka Hari Bhayangkara yang digelar Polda DIY berlangsung meriah " wrappingWidth="513.9999943971634" />
+            <Text layoutX="760.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semarakkan Hari Bhayangkara ke-73, Polda DIY menggelar Gowes Sinergitas TNI-Polri dan Pesta Rakyat, di parkir barat Stadion Maguwoharjo, Sleman, Minggu pagi (30/6/2019).Gowes yang bertema &quot;Dengan Semangat Promoter, Pengabdian Polri untuk Masyarakat, Bangsa dan Negara tersebut diikuti ribuan peserta dan berbagai elemen masyarakat.Gowes yang memperebutkan hadiah utama 1 Ekor Sapi Metal, 3 Sepeda Motor, Sepeda, Lemari Es, Televisi, dan berbagai hadiah menarik tersebut tersebut juga dihadiri oleh Kapolda DIY Irjen Pol. Drs. Ahmad Dofiri, M.Si., Danrem 072 Pamungkas Brigjen TNI M. Zamroni, S.I.P., Pengurus Cabang Bhayangkari DIY, Pejabat Utama Polda DIY dan ratusan anggota TNI dan Polri." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gowes yang dimulai tepat pukul 06.00 WIB tersebut terdiri dari 2 rute, yakni rute panjang dan rute pendek. Rute panjang menempuh jarak 22 km dan rute pendek sekitar 12 km. Setelah dilakukan pengibaran bendera start oleh Kapolda DIY.Kapolda DIY dalam sambutannya seusai gowes dan juga sekaligus membuka pesta rakyat Hari Bhayangkara ke 73 mengatakan acara ini tiada lain adalah dalam rangka untuk memupuk kebersamaan dan soliditas diantara TNI Polri, dan masyarakat.&quot;TNI Polri dan masyarakat merupakan Tritunggal yang tidak dapat dipisahkan. Oleh karena itu (pada) kesempatan pagi ini (kegiatan Gowes dan pesta rakyat) untuk mencerminkan ketiga hal tersebut dan mudah-mudahan melalui momentum hari Bhayangkara kebersamaan kita, (dan) soliditas kita, (antara) TNI Polri dan masyarakat terus akan berlanjut sampai kapanpun,&quot; ujar Kapolda." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="582.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sementara itu, Danrem 072 Pamungkas dalam sambutannya juga berharap event ini berada dalam suasana yang penuh kegembiraan. &quot;Kegembiraan yang kita peroleh hari ini atas berkat Rahmat Tuhan Yang Maha Kuasa dan yang pasti adalah karena sinergitas kita semua, TNI Polri dan masyarakat Jogjakarta,&quot; sambungnya. Danrem mengatakan Dalam rangka hari Bhayangkara 1 Juli, TNI mengucapkan Dirgahayu Bhayangkara. &quot;Polri kita akan semakin maju dan profesional dengan promoternya. TNI dan Polri bersinergi termasuk dengan seluruh warga masyarakat. Lanjutkan sinergitas itu untuk kebahagiaan dan Kedamaian kita semua,&quot; pungkasnya." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="289.0" fitWidth="514.0" layoutX="54.0" layoutY="306.0">
+               <image>
+                  <Image url="@../Images/polda-gowes.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button21" layoutX="1492.0" layoutY="783.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="650.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

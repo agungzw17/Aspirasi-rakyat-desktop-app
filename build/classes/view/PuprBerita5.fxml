@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PuprBerita5Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="52.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/DSC_0660.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pemkot Tambah Lima Armada Baru Si Thole" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 12 Maret 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kota Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta menjadi daerah yang menarik dikunjungi wisatawan. Kementerian Pariwisata sudah menetapkan Yogyakarta sebagai 10 besar destinasi pariwisata nasional" wrappingWidth="608.4700622558594" />
+            <Text layoutX="762.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menyikapi hal tersebut Pemerintah Kota (Pemkot) Yogyakarta meresponsnya dengan memberikan layanan terbaik bagi wisatawan. Salah satunya memberikan layanan maksimal bagi para wisatawan seperti menambah jumlah shuttle mini bus Si Thole.Kini Jumlah shuttle yang identik dengan warna hijau tersebut bertambah dengan adanya hibah dari Pemkot Yogya dan diharapkan dapat meningkatkan kenyamanan wisatawan.Shutle bus yang mampu menampung duabelas penumpang tersebut akan digunakan untuk membawa wisatawan keliling dalam beteng (jeron beteng) dan sekitar Keraton Yogyakarta.Mobil berjenis minibus ini bisa ditemukan di beberapa halte khusus seperti Parkir Ngabean, Keraton, Taman Sari, Taman pintar, taman parkir Senopati, dan Titik nol kilometer di daerah Malioboro." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Penumpang dapat mengakses shuttle wisata tersebut dari Taman Parkir Ngabean dan ada tiga halte pemberhentian yaitu, di Keraton, Taman Sari, dan Taman Parkir Senopati atau di depan Gedung Bank Indonesia” ungkapnya.Ketua Koperasi Forum Komunikasi Komunitas Alun-Alun Utara (FKKAU), Fuad Andreago mengungkapkan rasa syukurnya atas bertambahnya armada Si Thole.&quot;Stakeholder seharusnya bisa duduk satu meja, satukan visi untuk kemajuan wisata Yogya, shuttle Si Thole hanya sebagai salah satu altetnatif kendaraan wisata selain andong, becak,&quot; katanya usai peresmian armada baru tersebut di Lapangan Kridosono, Minggu pagi (30/6/2019)." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="68.0" layoutX="-2.0" layoutY="-12.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Button fx:id="button121" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

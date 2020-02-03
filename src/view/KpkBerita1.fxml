@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KpkBerita1Controller">
+    <children>
+      <Pane prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <Text layoutX="760.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="                Komisi Pemberantasan Korupsi (KPK) menerima kedatangan perwakilan Indonesia Corruption Watch (ICW) yang diwakili Peneliti ICW Donal Fariz bersama kader Partai Solidaritas Indonesia (PSI) pada Jumat (28/6) di Ruang Konfrensi Pers Gedung Merah Putih KPK.Kedatangan mereka diterima Wakil Ketua KPK Laode M Syarif terkait penguatan kapasitas partai politik yang digaungkan KPK kepada seluruh partai politik (parpol) di Indonesia.Dalam penyampaiannya Syarif mengatakan ada beberapa masalah yang ada dan sering terjadi di parpol di Indonesia adalah keterbukaan dana parpol, kaderisasi parpol serta penegakan etik pada setiap parpol.“Kita lihat di keterbukaan dana parpol, tak ada satu pun yang transparan. Tak satu pun yang mau diaudit secara keseluruhan sehingga dana parpol dari mana asalnya, dipakai untuk apa saja. Itu sama saja hutan belantara,&quot; katanya.Masalah selanjutnya terkait kaderisasi disebut Syarif, yaitu banyaknya parpol yang malah tidak mencalonkan kadernya sebagai kepala daerah atau anggota Dewan, tetapi orang di luar partai yang bermodal tinggi. Terakhir soal penegakan etik yang disebut Syarif penerapannya tidak tegas di parpol.Di akhir penyampaiannya Syarif berpesan parpol masih menjadi sumber korupsi, karena itu lanjut Syarif, parpol  jangan menjajikan perubahan tetapi lakukan perubahan. “ Itu bisa dilakukan sebagai komitmen penguatan parpol di Indonesia.”(Humas)" textAlignment="JUSTIFY" wrappingWidth="822.7890014648438">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="52.0" layoutY="237.0">
+               <image>
+                  <Image url="@../Images/7A1CE495-CCEC-4575-9ADA-1B1E3DAA8E54.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Komisi Pemberantasan Korupsi" wrappingWidth="749.3685302734375">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumat, 28 Juni 2019" wrappingWidth="174.45567572116852" />
+            <Button layoutX="1509.0" layoutY="751.0" mnemonicParsing="false" onAction="#kembali" styleClass="buttonmerah" text="Kembali" textFill="WHITE" />
+         </children>
+      </Pane>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Line endX="326.1666564941406" endY="-10.0" layoutX="-37.0" layoutY="10.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="5.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="30.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

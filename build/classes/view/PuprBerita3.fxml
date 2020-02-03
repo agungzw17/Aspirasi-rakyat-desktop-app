@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PuprBerita3Controller">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-6.0" layoutY="-20.0" prefHeight="796.0" prefWidth="1599.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="618.0" layoutX="52.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/lk1.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="48.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penerimaan Kunjungan Studi Strategis Dalam Negeri, Program Pendidikan Reguler, Angkatan Lembaga Ketahanan Nasional di Pemkot Yogyakarta" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 23 April2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kota Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="659.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rombongan Studi Strategis Dalam Negeri (SSDN) dan Program Pendidikan Reguler Angkatan (PPRA) Lembaga Ketahanan Nasional (Lemhanas) RI melakukan kunjungan ke Pemerintah Kota Yogyakarta. Rombongan diterima Wakil Walikota Yogyakarta, Pimpinan Fraksi DPRD Yogyakarta bersama dengan sejumlah Kepala OPD Unit Kerja di Lingkungan Pemerintah Kota Yogyakarta, di RuangYudhistira, Balaikota Yogyakarta, Rabu (3/7)." wrappingWidth="625.4700622558594" />
+            <Text layoutX="762.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rombongan Studi Strategis Dalam Negeri (SSDN) dan Program Pendidikan Reguler Angkatan (PPRA) Lembaga Ketahanan Nasional (Lemhanas) RI melakukan kunjungan ke Pemerintah Kota Yogyakarta. Rombongan diterima Wakil Walikota Yogyakarta, Pimpinan Fraksi DPRD Yogyakarta bersama dengan sejumlah Kepala OPD Unit Kerja di Lingkungan Pemerintah Kota Yogyakarta, di RuangYudhistira, Balaikota Yogyakarta, Rabu (3/7)." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="394.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wakil Walikota Yogyakarta, Heroe Poerwadi mengatakan, selamat menikmati suasana kota yang indah dengan wisata, beragambudaya, keramah-tamahan warganya dan lezatnya kuliner di Kota Yogya. Dalam kesempatan tersebut, Heroe Poerwadi menggambarkan kondisi pertumbuhan penduduk, potensi yang perlu digali, seperti di bidang ekonomi dalam pembangunan masyarakat Kota Yogyakarta." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Keberagaman dosmetik wisata, budaya, karya serta kuliner yang ada menambah keindahan kota Yogyakarta. Selamat menikmati suasana kota ini,” ujar Heroe.Heroe juga memaparkan mengenai perencanaan dan keberhasilanPemerintahan Kota Yogyakarta. Yakni dibawah kepemimpinan Walikota Yogyakarta, Haryadi Suyati dalam upaya mengurangi ketimpangan perekonomian dengan strategi usaha yang diwujudkan dalam, program “GandengGendong”.“Program “Gandeng Gendong” yang menjadikan kampung memiliki nilai jual dan potensi serta menjadi destinasi belajar bagi masyarakat maupun mahasiswa-mahasiswa dalam dan luar Yogyakarta dalam upaya ketimpangan perekonomian”, ungkapnya" wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="68.0" layoutX="-2.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="1604.0" />
+      <Button fx:id="button121" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #C92424;" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button1211" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button21" layoutX="1447.0" layoutY="8.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="216.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="646.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

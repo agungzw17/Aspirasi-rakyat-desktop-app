@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1600.0" stylesheets="@STheme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PolisiBerita1Controller">
+   <children>
+      <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane layoutX="-10.0" layoutY="-28.0" prefHeight="803.0" prefWidth="1603.0">
+         <children>
+            <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Polda DIY Dukung Usulan Malioboro Steril dari Kendaraan Bermotor" wrappingWidth="668.9167160568759">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa, 28 Mei 2019" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta" wrappingWidth="178.83071899414062">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="52.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kapolda DIY, Irjen Pol Ahmad Dofiri, Selasa (28/05/2019)." wrappingWidth="491.4700622558594" />
+            <Text layoutX="760.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yogyakarta - Kapolda Daerah Istimewa Yogyakarta (DIY), Irjen Pol Ahmad Dofiri, mendukung gagasan Pemda DIY menjadikan kawasan Malioboro steril dari kendaraan bermotor. Gagasan ini rencananya diterapkan pertengahan tahun ini.&quot;Saya menyambut baik, karena usulan itu sudah lama sebenarnya. Kita ingin Malioboro menjadi icon Yogyakarta dan memang pada kenyataannya kalau kita lihat begitu padatnya Malioboro, terutama pada saat weekend,&quot; kata Dofiri. " wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hal itu disampaikan Dofiri, begitu Irjen Pol Ahmad Dofiri akrab disapa kepada wartawan di Kantor Dewan Perwakilan Rakyat Daerah (DPRD) DIY Jalan Malioboro Yogyakarta, Selasa (28/5/2019).&quot;Kami mendukung kebijakan dari pemerintah daerah, dalam hal ini Dinas Perhubungan sudah melakukan rekayasa lalu lintas dan kita dukung sepenuhnya untuk pengaturan dan sosialisasi nanti,&quot; sambung Dofiri.Dofiri mengakui jika kebijakan tersebut diterapkan, maka wisatawan yang berkunjung harus berjalan kaki lebih jauh kala menyisiri Malioboro. Begitu juga dengan kantong parkir yang tersedia akan lebih jauh dari sebelumnya." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="760.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sebagaimana diketahui, Pemda DIY memang mewacanakan pedestrian Malioboro steril dari kendaraan bermotor. Uji coba konsep pedestrian Malioboro bebas kendaraan rencananya dilakukan pada pertengahan 2019.&quot;Prinsip kalau kita dari kepolisian mendukung terutama di bidang lalu lintas dan dari sisi kamtibmas lainnya. Ya mudah-mudahan Malioboro tambah bagus, lebih ikonik, lebih menarik dan juga lebih nyaman,&quot; tutup Dofiri." wrappingWidth="760.8035278320312">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="274.0" fitWidth="491.0" layoutX="100.0" layoutY="324.0">
+               <image>
+                  <Image url="@../Images/kapolda-diy-brigjen-pol-ahmad-dofiri-setelah-upacara-hut-bhayangkara-ke-72_20180711_094945.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Line endX="326.1666564941406" endY="5.086263172415784E-6" layoutX="-37.0" startX="326.1666564941406" startY="52.83333206176758" stroke="WHITE" />
+      <ImageView fitHeight="49.0" fitWidth="65.0" layoutX="24.0" layoutY="4.0" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_fix.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="95.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahanBeranda" prefHeight="50.0" prefWidth="178.0" styleClass="buttonhitam" text="Aspirasi Rakyat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="3.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="218.0" styleClass="buttonhitam" text="Sejarah Pengaduan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="647.0" layoutY="3.0" mnemonicParsing="false" onAction="#grafikp" prefHeight="50.0" prefWidth="227.0" styleClass="buttonhitam" text="Grafik Permasalahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="919.0" layoutY="3.0" mnemonicParsing="false" onAction="#instansiPemerintahan" prefHeight="50.0" prefWidth="240.0" styleClass="buttonhitam" text="Instansi Pemerintahan" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="1445.0" layoutY="7.0" onAction="#backLogin" prefHeight="20.0" prefWidth="100.0" styleClass="buttonmerah" text="Keluar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button121" layoutX="1486.0" layoutY="763.0" onAction="#kembali" prefHeight="26.0" prefWidth="110.0" styleClass="buttonmerah" text="Kembali" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

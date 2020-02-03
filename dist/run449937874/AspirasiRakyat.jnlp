@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AspirasiRakyat.jnlp">
+  <information>
+    <title>AspirasiRakyat</title>
+    <vendor>ASUS</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AspirasiRakyat.jar" size="12062706" download="eager" />
+    <jar href="lib\xstream-1.4.10.jar" size="589803" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AspirasiRakyat" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="aspirasirakyat.AspirasiRakyat"  name="AspirasiRakyat" />
+  <update check="always"/>
+</jnlp>
